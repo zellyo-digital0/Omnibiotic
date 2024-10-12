@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --cs-primary: #10369f;
+    --cs-text: #393A3A;
+    --cs-hover: #00a133;
+    --cs-black: #000;
+    --cs-white: #fff;
+}
+
+h1 {
+    font-size: 44px;
+    color: var(--cs-black);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    color: var(--cs-black) !important;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 25px;
+    color: var(--cs-black) !important;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: var(--cs-text) !important;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+a {
+    color: var(--cs-primary);
+    font-weight: 600;
+}
+
+.cp40 {
+    padding: 40px 0px;
+}
+
+.cp60 {
+    padding: 60px 0px;
+}
+
+.border_img {
+    border-radius: 10px;
+}
+
+.btn-details {
+    width: 100%;
+    background-color: var(--cs-primary);
+    border-radius: 0px;
+    color: var(--cs-white);
+    font-size: 14px;
+    padding: 10px;
+    transition: .2s all ease-in-out, .2s all ease-in-out;
+}
+
+.btn-details:hover {
+    background-color: var(--cs-hover);
+    color: var(--cs-white);
+}
+
+/* global ends */
+
+/* header starts */
+.navbar-brand img {
+    width: 150px;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: #013984;
+    margin: 0px 8px;
+}
+
+.nav-link:hover {
+    color: var(--cs-primary);
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 145%;
+    border-radius: 0;
+    font-size: 14px;
+    border-top: 3px solid var(--cs-primary);
+    padding: 15px;
+}
+
+.dropdown-item {
+    margin-bottom: 10px;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+/* header ends */
+
+/* place starts */
+.place_title p {
+    width: 15%;
+    background-color: #dbdbdb;
+    padding: 0;
+    padding: 8px;
+    font-size: 14px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.place_title h3 {
+    font-weight: 400;
+}
+
+.rate img {
+    width: 20%;
+}
+
+.sr9 {
+    margin: auto !important;
+}
+
+.sr9 img {
+    width: 95%;
+}
+
+.omn_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.omn_btn a {
+    width: 20%;
+    margin-right: 10px;
+}
+
+.place_btn {
+    justify-content: flex-start;
+    margin-top: 0px;
+}
+
+.btn-place {
+    background-color: transparent;
+    width: 180px !important;
+    color: var(--cs-primary);
+    border-bottom: 1px solid var(--cs-primary);
+}
+
+.btn-place:hover {
+    background-color: transparent;
+    color: var(--cs-black);
+    border-bottom: 1px solid var(--cs-primary);
+}
+
+.prog_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress {
+    margin-bottom: 15px;
+    border-radius: 0;
+    height: 10px;
+}
+
+.progress-bar {
+    background-color: var(--cs-primary);
+}
+
+.vorteile {
+    padding: 20px 30px;
+    background-color: var(--cs-white);
+    border: 2px solid var(--cs-hover);
+    margin: 30px 0px;
+}
+
+.vorteile ul {}
+
+.vorteile ul li {
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.vorteile ul li i {
+    margin-right: 10px;
+}
+
+.nachteile {
+    border: 2px solid #E02B20;
+}
+
+.fazit h3 {
+    font-weight: 400;
+    margin: 20px 0px 0px 0px;
+}
+
+/* probtable starts */
+.probtable_content h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* table ================================ */
+.tab_box {
+    border: 1px solid #00000021;
+    padding: 20px 10px;
+}
+
+.tab_box p {
+    color: var(--cs-text);
+    font-weight: 400;
+    margin: 0;
+    font-size: 14px;
+    padding: 0;
+}
+
+.tab_box p span {
+    font-weight: 600;
+    color: var(--cs-primary);
+}
+
+.table thead tr th {
+    text-align: center;
+    width: 12%;
+}
+
+tr {
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0;
+
+}
+
+.table2 tbody tr th {
+    width: 12%;
+    text-align: start;
+}
+
+.table2 tbody tr td {
+    width: 12%;
+    text-align: center;
+}
+
+.main-wrapper {
+    width: 100%;
+    border: transparent;
+    overflow-x: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.responsive-table {
+    display: inline-block;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.responsive-table>table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+.responsive-table>table td,
+th {
+    border: 1px solid #00000021;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.responsive-table>table th {
+    text-align: left !important;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.des {
+    text-align: center;
+}
+
+.des h3 {
+    font-size: 14px;
+    padding: 0;
+    color: var(--cs-hover) !important;
+}
+
+.des p {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+}
+
+.des_badge td a img {
+    width: 80px;
+    margin: auto !important;
+}
+
+.fa-check {
+    color: var(--cs-hover);
+}
+
+.fa-xmark {
+    color: #E02B20;
+}
+
+.des_pr {
+    font-size: 13px;
+}
+
+.count {
+    width: 30px;
+    height: 30px;
+    background-color: #e0e0e0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    overflow: hidden;
+    color: var(--cs-white);
+}
+
+.c1 {
+    background-color: var(--cs-hover);
+}
+
+.table3 td {
+    border: 1px solid transparent !important;
+}
+
+.table3 tbody tr th {
+    border: 1px solid transparent !important;
+}
+
+.verg {
+    background-color: var(--cs-hover) !important;
+    color: var(--cs-white);
+}
+
+.lightbg {
+    background-color: #ecf9f0 !important;
+}
+
+.lightbg .btn-details {
+    background-color: var(--cs-hover);
+}
+
+.lightbg a:hover {
+    background-color: var(--cs-primary);
+}
+
+.btn-grey {
+    background-color: #bdbdbd !important;
+}
+
+.btn-grey:hover {
+    background-color: #bdbdbd !important;
+}
+
+.btn-grey2:hover {
+    background-color: var(--cs-primary) !important;
+}
+
+.notice p{
+    font-size: 12px;
+    margin-top: 20px;
+    color: var(--cs-primary)!important;
+}
+/* table ends */
+/* Probiotika Vergleich 2023 ends */
+
+/* achtung starts */
+.achtung_content {
+    background-color: #ea6f54;
+    padding: 50px;
+}
+
+.achtung_content h3{
+    color: var(--cs-white)!important;
+}
+
+.achtung_content p {
+    color: var(--cs-white)!important;
+}
+
+/* achtung ends */
+
+/* .footer start */
+.footer {
+    background-color: #0a3a81;
+}
+
+.footer_content p {
+    font-size: 14px;
+    color: var(--cs-white) !important;
+}
+
+/* .footer_content {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.footer_list li {
+    list-style: none;
+    color: var(--cs-white);
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.footer_list a {
+    color: var(--cs-white);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer_list a:hover {
+    text-decoration: underline;
+}
+
+/* footer ends */
+
+.leftside {
+    position: relative;
+}
+
+.fixed-sidebar {
+    position: sticky;
+    top: 20px; /* Adjust the top position as needed */
+}

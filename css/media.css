@@ -1,0 +1,60 @@
+@media(max-width:991px) {
+    .place_title p {
+        width: 30%;
+    }
+
+    .omn_btn a {
+        width: 40%;
+    }
+}
+
+@media(max-width:767px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .cp60 {
+        padding: 30px 10px;
+    }
+
+    .cp40 {
+        padding: 20px 0px;
+    }
+
+    .place_title p {
+        width: 60%;
+    }
+
+    .place_progress{
+        margin-top: 30px;
+    }
+
+    .rate img {
+        width: 35%;
+    }
+
+    .omn_btn a {
+        width: auto;
+        margin-right: 10px;
+    }
+
+    .omn_btn {
+        margin: 30px 0px;
+    }
+
+    .vorteile {
+        margin-top: 20px;
+    }
+
+    .achtung_content {
+        padding: 30px 20px;
+    }
+
+    .footer_content {
+        margin: 20px 0px;
+    }
+}
